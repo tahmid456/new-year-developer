@@ -1,0 +1,87 @@
+.banner{
+height: 80vh;
+width: 100%;
+background-image: url('../images/banner/banner2.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.banner-info{
+
+margin-left: 780px;
+
+
+}
+
+.banner-title{
+
+font-size: 70px;
+font-weight: 700;
+
+
+
+}
+.banner-desc{
+
+font-size: 1.5rem;
+font-weight: 400;
+
+}
+.btn{
+
+
+border:none;
+border-radius: 10px;
+background-color: orangered;
+color:white;
+padding:20px;
+cursor: pointer;
+
+}
+
+.btn:hover{
+
+background-color: blue;
+
+}
+
+.section-container{
+
+display: flex;
+gap:50px;
+justify-content: space-around;
+}
+
+.section-title{
+
+font-size: 3rem;
+font-weight: bolder;
+text-transform: capitalize;
+
+}
+
+.section-desc{
+
+font-size: 1.4rem;
+text-transform: capitalize;
+
+
+}
+
+ol{
+
+margin-top: 20px;
+padding: 5px;
+
+}
+ol,li{
+
+font-size: 1.4rem;
+text-transform: capitalize;
+
+}
